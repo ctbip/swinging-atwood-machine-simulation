@@ -3,6 +3,7 @@
 ## Overview
 
 This project numerically solves the system of differential equations describing a swinging Atwood machine using the Runge-Kutta method of the 4th order. The program provides a graphical interface where you can set up the parameters and view the resulting trajectory path:
+
 ![Graphical Interface](gui.png)
 
 **Parameters that can be set in the program menu:**
@@ -25,9 +26,11 @@ This project numerically solves the system of differential equations describing 
 - **pictures**: Contains the trajectory plots generated from the calculations. The filenames follow the format: `MassRatio_StartingAngle.png`.
 - **project_overview_RU.pdf**: A detailed description of the project in PDF format (in Russian).
 - **atwood.nb**: Additional code written in Wolfram Mathematica. This code solves the problem using the built-in `NDSolve` method, allowing for result verification and the creation of cool animations like this one:
+
 ![Atwood's Machine Animation](atwood_animation.gif)
 
----
+
+
 
 ## References
 
